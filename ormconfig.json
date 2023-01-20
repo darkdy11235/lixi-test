@@ -1,0 +1,19 @@
+{
+  "type": "mysql",
+  "host": "sql12.freemysqlhosting.net",
+  "port": 3306,
+  "username": "sql12591622",
+  "password": "PPi3PsUb35",
+  "database": "sql12591622",
+  "entities": [
+    "dist/**/*.entity{.ts,.js}"
+  ],
+  "synchronize": true,
+  "migrationsTableName": "lixisgroup_migration_table",
+  "migrations": [
+    "dist/**/migration/*.{ts,js}"
+  ],
+  "cli": {
+    "migrationsDir": "dist/**/migration"
+  }
+}
